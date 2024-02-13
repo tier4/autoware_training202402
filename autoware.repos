@@ -62,9 +62,9 @@ repositories:
     url: https://github.com/MapIV/llh_converter.git
     version: ros2
   # launcher
-  launcher/autoware_launch:
+  launcher/autoware_launch.logiee:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
+    url: https://github.com/dkoldaev/autoware_launch.logiee.git
     version: main
   # sensor_component
   sensor_component/external/sensor_component_description:
@@ -106,7 +106,7 @@ repositories:
     url: git@github.com:tier4/jw_interface
     version: tier4/universe
   # param
-  param/autoware_individual_params:
+  param/logiee_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
+    url: https://github.com/dkoldaev/logiee_individual_params.git
     version: main
